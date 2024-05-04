@@ -1,0 +1,8 @@
+.note-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.notes-title {
+    margin: 20px;
+}
