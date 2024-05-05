@@ -1,0 +1,11 @@
+.nav-container {
+    padding: 10px;
+    text-align: center;
+
+    button {
+        margin: 10px;
+        border: none;
+        background-color: transparent;
+        color: black;
+    }
+}
