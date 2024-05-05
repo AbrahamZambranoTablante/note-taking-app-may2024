@@ -1,1 +1,37 @@
 
+.note-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+    
+}
+
+.notes-title {
+    margin: 20px;
+}
+
+.note-list-container {
+    height: 1000px;
+    text-align: center;
+    padding: 10px;
+    background-image: url(https://png.pngtree.com/background/20240102/original/pngtree-cork-board-background-board-bulletin-wallpaper-bulletin-board-photo-picture-image_7070562.jpg);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.search-bar {
+    background-color: rgb(240, 225, 139);
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+
+    input {
+        text-align: center;
+        width: 800px;
+        border-radius: 20px;
+        border: 1px solid lightgrey;
+    }
+
+}
+
+
