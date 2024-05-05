@@ -6,15 +6,15 @@ import './App.css'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import NotePage from './Components/NotePage'
 import NoteForm from './Components/new-note'
-// import Nav from './common/Nav';
+import Nav from './common/Nav';
 
 
 function App() {
   
   return (
     <>
-    {/* <Nav /> */}
     <Router>
+      <Nav />
       <Routes>
         <Route path='/' element={<NoteList />} />
         <Route path='/:noteid' element={<NotePage />}/>
