@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom"
 import { useEffect, useState } from "react";
-import { getOneNote } from '../../data/fetch';
+import { getOneNote } from '../data/fetch';
 import './NotePage.css';
 
 function NotePage() {

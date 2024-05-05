@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { getAllNotes } from "../data/fetch";
-import Note from "./Note/Note"
+import Note from "./Note"
 import "./note-list.css"
 
 export default function Home () {
