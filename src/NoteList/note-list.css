@@ -1,6 +1,8 @@
 .note-list {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
     
 }
 
@@ -12,7 +14,7 @@
     height: 1000px;
     text-align: center;
     padding: 10px;
-    background-image: url(https://wallpapercave.com/wp/wp10733523.jpg);
+    background-image: url(https://png.pngtree.com/background/20240102/original/pngtree-cork-board-background-board-bulletin-wallpaper-bulletin-board-photo-picture-image_7070562.jpg);
     font-family: 'Courier New', Courier, monospace;
 }
 
