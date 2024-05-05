@@ -1,8 +1,33 @@
 .note-list {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    
 }
 
 .notes-title {
     margin: 20px;
 }
+
+.note-list-container {
+    height: 1000px;
+    text-align: center;
+    padding: 10px;
+    background-image: url(https://wallpapercave.com/wp/wp10733523.jpg);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.search-bar {
+    background-color: rgb(240, 225, 139);
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+
+    input {
+        text-align: center;
+        width: 800px;
+        border-radius: 20px;
+        border: 1px solid lightgrey;
+    }
+
+}
+

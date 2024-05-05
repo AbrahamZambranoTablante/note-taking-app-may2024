@@ -1,6 +1,7 @@
 .note-container {
     border: 1px solid lightgrey;
     width: 400px;
-    padding: 5px;
-    margin: 20px;
+    text-align: center;
+    background-color: rgb(240, 225, 139);
+    border-radius: 10px;
 }

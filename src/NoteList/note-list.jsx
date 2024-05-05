@@ -32,13 +32,17 @@ export default function Home () {
     return (
         <>
             <div className="note-list-container">
+                <div className="search-bar">
+                    <label htmlFor="searchTitle"> Search Notes
+                        <input  
+                        type="text"
+                        value={searchNote}
+                        id="searchTitle"
+                        onChange={handleTextChange}
+                        />
+                    </label>
+                </div>
                 <h1 className="notes-title">Notes</h1>
-                <input 
-                type="text"
-                value={searchNote}
-                placeholder="Search Notes"
-                onChange={handleTextChange}
-                />
                 <div className="note-list">
                     {notes.map(note => <Note key={note.id} note={note}/>)}
                 </div>
