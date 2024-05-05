@@ -9,3 +9,7 @@ export function getAllNotes () {
     return fetch(BASE_URL)
     .then(response => response.json())
 }
+
+export function createNote(note) {
+
+}
