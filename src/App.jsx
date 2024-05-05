@@ -5,6 +5,7 @@ import './Components/AboutUs.css';
 import './App.css'
 import notesData from  "./data/data.json"
 
+
 function App() {
   
   return (
@@ -12,7 +13,7 @@ function App() {
       <div>
         <Router>
             <Routes>
-              <Route path="/aboutus" element={<AboutUs />} />
+              <Route path="/about" element={<AboutUs />} />
             </Routes>
         </Router> 
       </div>
