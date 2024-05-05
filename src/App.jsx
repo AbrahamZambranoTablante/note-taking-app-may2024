@@ -15,7 +15,7 @@ function App() {
     <>
     <Router>
       <Routes>
-        <Route path='/' element={<NoteList notes={notes} />} />
+        <Route path='/' element={<NoteList />} />
         <Route path='/:noteid' element={<NotePage />}/>
         <Route path="/Notes/New" element={<NoteForm />} />
         <Route path="/about" element={<AboutUs />} />
