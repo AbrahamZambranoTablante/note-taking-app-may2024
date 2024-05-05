@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { createNote } from "../../data/fetch";
+import { createNote } from "../data/fetch";
 import { useNavigate } from "react-router-dom";
 import "./new-note.css";
 

@@ -1,18 +1,19 @@
 import { useState } from 'react'
-import NoteList from "./NoteList/note-list"
+import NoteList from "./Components/note-list"
 import AboutUs from "./Components/AboutUs";
 import './Components/AboutUs.css';
 import './App.css'
-import notesData from  "./data/data.json"
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import NotePage from './NoteList/NotePage/NotePage'
-import NoteForm from './NoteList/Note/new-note'
+import NotePage from './Components/NotePage'
+import NoteForm from './Components/new-note'
+// import Nav from './common/Nav';
 
 
 function App() {
   
   return (
     <>
+    {/* <Nav /> */}
     <Router>
       <Routes>
         <Route path='/' element={<NoteList />} />
