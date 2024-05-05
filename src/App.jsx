@@ -2,13 +2,21 @@ import { useState } from 'react'
 import NoteList from "./NoteList/note-list"
 import './App.css'
 import notesData from  "./data/data.json"
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import NotePage from './NoteList/NotePage/NotePage'
 
 function App() {
   const [notes] = useState(notesData)
 
   return (
     <>
-      <NoteList notes={notes} />
+
+    <Router>
+      <Routes>
+        <Route path='/' element={<NoteList notes={notes} />} />
+        <Route path='/:noteid' element={<NotePage />}/>
+      </Routes>
+    </Router>
     </>
   )
 }
