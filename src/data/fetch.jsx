@@ -4,3 +4,7 @@ export function getOneNote (id) {
     return fetch(`${BASE_URL}/${id}`)
     .then(response => response.json())
 }
+
+export function createNote(note) {
+
+}
